@@ -18,7 +18,7 @@ Restrictions for BLACK:
 
 No restrictions for WHITE.
 
-Only AI will follow the restrictions; players can just ignore them, and put chess anywhere you like.
+Only AI will follow the restrictions; human players can just ignore them, and put chess anywhere you like.
 
 ## Run
 
