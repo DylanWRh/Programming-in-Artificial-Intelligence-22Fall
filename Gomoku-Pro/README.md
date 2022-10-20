@@ -4,7 +4,7 @@ A small project for the course, to implement an AI for Gomoku-Pro.
 
 This is a group project, and another contributor is *Yiming Wang*.
 
-Use min-max searching algorithm and alpha-beta pruning, with [evaluation function](https://github.com/sxysxy/GensokyoGomoku)(simplified in this program) and a searching depth of only 2.
+Use min-max searching algorithm and alpha-beta pruning, with [evaluation function](https://github.com/sxysxy/GensokyoGomoku)(simplified here) and a searching depth of only 2.
 
 Since it is only a one-week project, we did not spend too much effort on optimizing the algorithm. So it is not strange that anybody has a great chance to beat it.
 
