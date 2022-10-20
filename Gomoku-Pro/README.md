@@ -2,15 +2,19 @@
 
 A small project for the course, to implement an AI for Gomoku-Pro.
 
-Use min-max searching algorithm and alpha-beta pruning, with a simplified [evaluation function](https://github.com/sxysxy/GensokyoGomoku) and a searching depth of only 2.
+This is a group project, and another attributor is *Yiming Wang*.
+
+Use min-max searching algorithm and alpha-beta pruning, with [evaluation function](https://github.com/sxysxy/GensokyoGomoku)(simplified in this program) and a searching depth of only 2.
+
+Since it is only one-week project, we did not spend too much effort on optimizing the algorithm. So it is not strange that anybody has a great chance to beat it.
 
 ## Rule
 
 Basic rules are the same as naive Gomoku with 15 x 15 board.
 
 Restrictions for BLACK:
-1) For the first step, BLACK can only put at the middle of the board, i.e. (7, 7).
-2) For the second step, BLACK cannot put at the 3 x 3 area in the middle, i.e. [6, 8] x [6, 8].
+1) For the first step, BLACK can only make a move at the middle of the board, i.e. (7, 7).
+2) For the second step, BLACK cannot make a move within the 3 x 3 area in the middle, i.e. \[6, 8\] x \[6, 8\].
 
 No restrictions for WHITE.
 
