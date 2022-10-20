@@ -2,7 +2,7 @@
 
 A small project for the course, to implement an AI for Gomoku-Pro.
 
-This is a group project, and another attributor is *Yiming Wang*.
+This is a group project, and another contributor is *Yiming Wang*.
 
 Use min-max searching algorithm and alpha-beta pruning, with [evaluation function](https://github.com/sxysxy/GensokyoGomoku)(simplified in this program) and a searching depth of only 2.
 
