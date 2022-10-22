@@ -6,7 +6,7 @@ This is a group project, and another contributor is *Yiming Wang*.
 
 Use min-max searching algorithm and alpha-beta pruning, with [evaluation function](https://github.com/sxysxy/GensokyoGomoku)(greatly simplified here) and a searching depth of only 2. Therefore, it is not strange that everyone has a great chance to beat it.
 
-Since it is only a one-week project, we did not spend too much effort on optimizing the algorithm, so the efficiency is apparently low. 
+Since it is only a one-month project(and to be honest, we managed to complete it within two days right before the deadline. I admit it is not a good habit.), we did not spend too much effort on optimizing the algorithm, so the efficiency is apparently low. 
 
 ## Rule
 
