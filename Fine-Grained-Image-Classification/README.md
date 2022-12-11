@@ -11,8 +11,8 @@ Use [TransFG](https://arxiv.org/abs/2103.07976) as our model.
 - Source code and trained model
 - A README file
 - A report, consisting of introduction to the model, the validation result and references.
-- Slides for in in-class presentation
-- (Optional) GUI, which shows the classification and wiki knowledge of the item in the input image
+- Slides for in-class presentation
+- (Optional) Design a GUI, which shows the classification and wiki knowledge of the item in the input image
 
 ## Usage
 
