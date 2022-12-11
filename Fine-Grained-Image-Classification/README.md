@@ -1,6 +1,22 @@
-# Usage
+# Fine-Grained Image Classification
 
-## Train
+Final project of the course, to train a deep learning model for fine-grained image classification on dataset [CUB_200_2011](http://www.vision.caltech.edu/datasets/cub_200_2011/).
+
+This is a group project, and other contributors are *Xin Hao* and *Yiming Wang*.
+
+Use [TransFG](https://arxiv.org/abs/2103.07976) as our model.
+
+## Work Requirement
+
+-- Source code and trained model
+-- A README file
+-- A report, consisting of introduction to the model, the validation result and references.
+-- Slides for in in-class presentation
+-- (Optional) GUI, which shows the classification and wiki knowledge of the item in the input image
+
+## Usage
+
+### Train
 
 Download [CUB dataset](http://www.vision.caltech.edu/datasets/cub_200_2011/
 ) and [ViT-B_16 model](https://console.cloud.google.com/storage/browser/vit_models/imagenet21k?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false).
@@ -19,7 +35,7 @@ TransFG
 
 Directly run `train.py`.
 
-## Show demo
+### Show demo
 
 Download our [pretrained model](https://disk.pku.edu.cn:443/link/F65B24FCC4B01D2A4F7352D2A73D3DC1).
 
