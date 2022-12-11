@@ -35,7 +35,7 @@ def evaluation(model, img_path):
     res = []
     for idx in top5_cls[0, :5]:
         res.append(idx.item() + 1)
-    return res
+    return res, probs
 
 
 def convert_to_bytes(file_or_bytes, resize=None):
@@ -104,14 +104,14 @@ def main():
         if event in ["确认"]:
             if img_path:
                 window['-IMAGE-'].update(data=convert_to_bytes(img_path, resize=image_size), size=image_size)
-                top5 = evaluation(model, img_path)
+                top5, probs_ = evaluation(model, img_path)
                 for i in range(1, 6):
                     window['-PED' + str(i) + '-'].update(
                         data=convert_to_bytes('pedia/' + str(top5[i - 1]) + '.png',
                                               resize=(pedia_size[0], pedia_size[1]-50)),
                         size=pedia_size)
                     window['-TAB' + str(i) + '-'].update(title=tab_name[top5[i - 1] - 1])
-                    window['-NAME' + str(i) + '-'].update(value=tab_name[top5[i - 1] - 1])
+                    window['-NAME' + str(i) + '-'].update(value=tab_name[top5[i - 1] - 1] + str(probs_[-1][top5[i - 1] - 1]))
 
     window.close()
 
