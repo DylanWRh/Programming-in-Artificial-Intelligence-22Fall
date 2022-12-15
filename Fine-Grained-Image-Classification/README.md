@@ -6,6 +6,8 @@ This is a group project, and other contributors are *Xin Hao* and *Yiming Wang*.
 
 Use [TransFG](https://arxiv.org/abs/2103.07976) as our model.
 
+BTW, though it is initially designed as a monthly project, it took we three pigeons only two days to finish everything (and as you can easily guess, the last two days before deadline). What a miracle!
+
 ## Work Requirement
 
 - Source code and trained model
